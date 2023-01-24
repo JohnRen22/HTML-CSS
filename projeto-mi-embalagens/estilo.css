@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+#container {
+	margin: 0 auto;
+	min-width: 200px;
+}
+
+/* Container topo
+*/
+.limp {
+	clear: both;
+}
+
+#nav-horizontal {
+	border: 1px solid #FF8811;
+	background: #FF8811;
+}
+ 
+h2#logo {
+	margin: 20px;
+	height: 200px;
+	width: 200px;
+	background: #fff url(imagens/logo-jpeg.jpg) no-repeat left top;
+	background-size: 200px;
+	text-indent: -300px;
+}
+
+#nav-horizontal li a {
+	float: left;
+	padding: 10px 20px;
+	color: #fff;
+	border-bottom: 2px solid #fff;
+}
+
+#nav-horizontal li {
+		margin-left: 35%;
+}
+
+#container-topo {
+	background: #fff;
+}
+
+#conteudo #portfolio {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#portfolio .produto {
+	width: 300px;
+	height: 300px;
+	border: 1px solid #aaa;
+	border-radius: 20px;
+	float: left;
+	margin: 20px;
+	background: #fff url(imagens/logo-jpeg.jpg) no-repeat left top;
+	background-size: 300px;
+}
+
+#portfolio .produto {
+	width: 300px;
+	height: 300px;
+	border: 1px solid #aaa;
+	border-radius: 20px;
+	float: left;
+	margin: 20px;
+	background: #fff url(imagens/logo-jpeg.jpg) no-repeat left top;
+	background-size: 300px;
+}
+
+#portfolio .arte-1 {
+	background: #fff url(imagens/arte1.jpg) no-repeat left top;
+	background-size: 300px;
+}
+
+#portfolio .arte-2 {
+	background: #fff url(imagens/arte2.jpg) no-repeat left top;
+	background-size: 300px;
+}
+
+#portfolio .arte-3 {
+	background: #fff url(imagens/arte3.jpg) no-repeat left top;
+	background-size: 300px;
+}
+
