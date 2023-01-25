@@ -5,6 +5,33 @@ body {
 	background: #fff url("imagens/fundo.png") repeat-x top left;
 }
 
+img {
+	border: 1px solid #ccc;
+}
+
+img.imagem-principal {
+	border: 3px solid #dfdfdf;
+	width: 98%;
+}
+
+h3 {
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+}
+
+.destaque h3 {
+	background: #b10333;
+	color: #fff;
+}
+
+.entrevista h3 {
+	background: #b10333;
+	color: #000;
+}
+
+
 #container {
 	width: 60%;
 	height: 1000px;
@@ -79,7 +106,6 @@ body.fotos #nav a#fotos
 
 	background: #f5f5f5;
 	margin-top: 20px;
-	border: 1px solid red;
 }
 
 #lateral {
@@ -92,7 +118,10 @@ body.fotos #nav a#fotos
 	width: 270px;
 	float: left;
 	margin: 0 0 20px 200px;
-	background: blue;
+}
+
+#conteudo a.leia {
+	color: #b10333;
 }
 
 #duas-colunas #primario {
@@ -122,7 +151,7 @@ body.fotos #nav a#fotos
 
 .caixa {
 	background: #f3f3f3 url(imagens/fundo-caixa.png);
-	margin: 10px 0;
+	margin: 0px 0;
 	padding: 5px 0 5px 0;
 }
 
